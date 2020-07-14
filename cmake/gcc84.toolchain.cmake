@@ -1,0 +1,7 @@
+
+set(CMAKE_SYSTEM_NAME Linux)
+
+set(TOOLSET_PATH "/opt/devtools")
+set(CMAKE_C_COMPILER   ${TOOLSET_PATH}/bin/gcc)
+set(CMAKE_CXX_COMPILER ${TOOLSET_PATH}/bin/g++)
+set(CMAKE_MAKE_PROGRAM ${TOOLSET_PATH}/bin/ninja)
